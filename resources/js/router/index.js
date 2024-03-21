@@ -34,8 +34,17 @@ const router = createRouter({
     meta: {
       layout: 'default'
     }
+   },
+   {
+    path: '/file-management',
+    name: 'file-management',
+    component: () => import('@/views/pages/file-management/file-management.vue'),
+    meta: {
+      layout: 'default'
+    }
    }
   ],
+  
 })
 
 export default router

@@ -88,6 +88,13 @@ const upgradeBanner = computed(() => {
           to: '/roles',
         }"
       />
+      <VerticalNavLink
+        :item="{
+          title: 'File Management',
+          icon: 'mdi-file-multiple',
+          to: '/file-management',
+        }"
+      />
     </template>
 
 
